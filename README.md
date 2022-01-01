@@ -12,7 +12,7 @@ Then Deploy the frontend. Link to the frontend https://github.com/Dester-Alken/D
 
 Note: This is because the web version of the backend is a little slow.
  
-## Welcome to Dester Backend. [Local]
+## Welcome to Dester Backend.
 
 Create a MongoDb cluster on https://www.mongodb.com/atlas/database
 
