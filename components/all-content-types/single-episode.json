@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_all_content_types_single_episodes",
+  "info": {
+    "name": "Single-Episode",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "episode_title": {
+      "type": "string"
+    },
+    "episode_number": {
+      "type": "string"
+    },
+    "season_number": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "video_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "all-content-types.video-info"
+    }
+  }
+}

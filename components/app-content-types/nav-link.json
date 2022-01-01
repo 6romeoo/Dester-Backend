@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_app_content_types_nav_links",
+  "info": {
+    "name": "nav-link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_all_content_types_featured_carousels",
+  "info": {
+    "name": "featured_carousel",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backdrop": {
+      "type": "string"
+    },
+    "tmdb_id": {
+      "type": "integer"
+    },
+    "logo_img": {
+      "type": "string"
+    }
+  }
+}

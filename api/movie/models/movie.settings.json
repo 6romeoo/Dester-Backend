@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "name": "movie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adult": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "tmdb_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "poster": {
+      "type": "string"
+    },
+    "backdrop": {
+      "type": "string"
+    },
+    "video_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "all-content-types.video-info"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "collections": {
+      "via": "movies",
+      "collection": "collections"
+    }
+  }
+}

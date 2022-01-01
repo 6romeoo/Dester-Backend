@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_app_global_content_types_navbars",
+  "info": {
+    "name": "navbar",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

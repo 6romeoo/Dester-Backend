@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featured_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "all-content-types.featured-carousel"
+    },
+    "site_description": {
+      "type": "text"
+    },
+    "site_name": {
+      "type": "string"
+    },
+    "site_contact_mail": {
+      "type": "string"
+    },
+    "site_contact_number": {
+      "type": "integer"
+    },
+    "site_contact_id_facebook": {
+      "type": "string"
+    },
+    "site_contact_id_instagram": {
+      "type": "string"
+    },
+    "site_contact_id_twitter": {
+      "type": "string"
+    },
+    "site_contact_id_discord": {
+      "type": "string"
+    },
+    "site_contact_address": {
+      "type": "string"
+    },
+    "site_url": {
+      "type": "string"
+    },
+    "main_movies_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-global-content-types.display-component"
+    },
+    "main_movies_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-global-content-types.display-component"
+    },
+    "main_series_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-global-content-types.display-component"
+    },
+    "main_series_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-global-content-types.display-component"
+    },
+    "main_collection_carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app-global-content-types.display-component"
+    }
+  }
+}

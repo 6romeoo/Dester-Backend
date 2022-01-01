@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_all_content_types_video_infos",
+  "info": {
+    "name": "Video-Info",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "audio": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Hindi",
+        "Japanese",
+        "German",
+        "Chinese",
+        "Tamil",
+        "Telagu",
+        "Kannada"
+      ]
+    },
+    "premium": {
+      "type": "boolean",
+      "default": false
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": [
+        "SDrive"
+      ],
+      "default": "SDrive"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "integer"
+    }
+  }
+}

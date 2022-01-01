@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collections",
+  "info": {
+    "name": "Collections",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "collection_name": {
+      "type": "string"
+    },
+    "collection_description": {
+      "type": "text"
+    },
+    "collection_bg": {
+      "type": "string"
+    },
+    "movies": {
+      "collection": "movie",
+      "via": "collections",
+      "dominant": true
+    },
+    "series": {
+      "collection": "serie",
+      "via": "collections",
+      "dominant": true
+    },
+    "collection_color": {
+      "type": "string"
+    },
+    "collection_logo": {
+      "type": "string"
+    }
+  }
+}
