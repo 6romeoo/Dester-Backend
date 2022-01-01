@@ -32,7 +32,7 @@ npm run develop
 
 DATABASE_HOST=`Database Host Url Ex: cluster.aaa.mongodb.net`<br>
 DATABASE_SRV=`Boolean. If your mongodb is on atlas meaning remote then DATABASE_SRV=true`<br>
-DATABASE_PORT=`Database Port Number`<br>
+DATABASE_PORT=`Database Port Number. Atlas Cluster Port is 27017`<br>
 DATABASE_NAME=`Anything its up to you`<br>
 DATABASE_PASSWORD=`Database Password`<br>
 
