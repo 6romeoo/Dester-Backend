@@ -30,7 +30,7 @@ npm run develop
 
 ## Environment Variables
 
-DATABASE_HOST=`Database Host Url Ex: @cluster.aaa.mongodb.net`<br>
+DATABASE_HOST=`Database Host Url Ex: cluster.aaa.mongodb.net`<br>
 DATABASE_SRV=`Boolean. If your mongodb is on atlas meaning remote then DATABASE_SRV=true`<br>
 DATABASE_PORT=`Database Port Number`<br>
 DATABASE_NAME=`Anything its up to you`<br>
